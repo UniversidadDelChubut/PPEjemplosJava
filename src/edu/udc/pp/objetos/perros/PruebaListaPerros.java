@@ -9,6 +9,13 @@ public class PruebaListaPerros {
 		Perro chiflo = new Perro("Chiflo", 24);
 		chiflo.setVelocidadMaxima(62);
 		chiflo.comer(0.900f);
+		
+		
+		Perro chiflo2 = new Perro("Chiflo", 24);
+		chiflo2.setVelocidadMaxima(62);
+		chiflo2.comer(0.900f);
+		
+		
 		 
 		Perro zurdo = new Perro("Zurdo", 23);
 		zurdo.setVelocidadMaxima(64);
@@ -33,11 +40,29 @@ public class PruebaListaPerros {
 		listaPerros.add(palmiro);
 		listaPerros.add(ramonAngel);
 		listaPerros.add(alberto);
-		listaPerros.add(camila);
+		listaPerros.add(alberto);
 		
 		
 		System.out.println("El quinto perro de la lista se llama " + listaPerros.get(4).getNombre() );
 		System.out.println("El sexto perro de la lista se llama " + listaPerros.get(5).getNombre() );
+		
+		
+		
+		
+		Lista lista2 = new Lista();
+		
+		
+		Perro p = listaPerros.get(2) ;
+		lista2.add(  p );
+		
+		System.out.println( listaPerros.get(2) == lista2.get(0) );
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 }
