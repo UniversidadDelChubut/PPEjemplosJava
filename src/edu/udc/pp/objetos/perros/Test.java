@@ -3,10 +3,12 @@ package edu.udc.pp.objetos.perros;
 public class Test {
 
 	public static void main(String[] args) {
+		
+		Perro petete = new Perro("Petete");
 
 		Perro chiflo = new Perro("Chiflo", 24);
 		chiflo.setVelocidadMaxima(62);
-		chiflo.comer(0.900f);
+		chiflo.comer(0.900f, "polenta");
 		
 		Perro zurdo = new Perro("Zurdo", 23);
 		zurdo.setVelocidadMaxima(64);
