@@ -8,12 +8,17 @@ public class Test {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Vehiculo v = new Auto();
+
 		
-		v.avanzar();
+		VehiculoTerrestre vt = new Auto();
+		System.out.println( "APTO ASFALTO " + vt.isAptoAsfalto());
 		
-		System.out.println( v.getVelocidad() );
+		vt = new Moto();
+		System.out.println( "APTO ASFALTO " + vt.isAptoAsfalto());
+		
+		vt = new MinningTruck();
+		System.out.println( "APTO ASFALTO " + vt.isAptoAsfalto());
+		
 		
 	}
 
