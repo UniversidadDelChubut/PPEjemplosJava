@@ -19,6 +19,9 @@ public class Test {
 		vt = new MinningTruck();
 		System.out.println( "APTO ASFALTO " + vt.isAptoAsfalto());
 		
+		Vehiculo v = vt;
+		
+		
 		
 	}
 
