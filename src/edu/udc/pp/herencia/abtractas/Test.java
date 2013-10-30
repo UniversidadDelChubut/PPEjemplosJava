@@ -9,6 +9,7 @@ public class Test {
 	 */
 	public static void main(String[] args) {
 
+
 		
 		VehiculoTerrestre vt = new Auto();
 		System.out.println( "APTO ASFALTO " + vt.isAptoAsfalto());
@@ -19,7 +20,17 @@ public class Test {
 		vt = new MinningTruck();
 		System.out.println( "APTO ASFALTO " + vt.isAptoAsfalto());
 		
+		
+		Auto a = new Auto();
+		vt = a; 
 		Vehiculo v = vt;
+		
+		Aerotransportable at = a;
+		
+		
+		AvionTransporte avion =  new AvionTransporte();
+		
+		avion.cargar( at );
 		
 		
 		

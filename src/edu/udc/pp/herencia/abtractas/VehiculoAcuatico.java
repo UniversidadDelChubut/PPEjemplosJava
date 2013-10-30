@@ -6,7 +6,6 @@ public abstract class VehiculoAcuatico extends Vehiculo {
 	private int calado;
 	private int manga;
 	
-	
 	public int getEslora() {
 		return eslora;
 	}
