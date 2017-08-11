@@ -1,4 +1,4 @@
-package ar.edu.udc.pp.varios.gruposalazar;
+package edu.udc.pp.varios.gruposalazar;
 
 public class Principal {
 

@@ -1,4 +1,4 @@
-package ar.edu.udc.pp.varios.gruposalazar;
+package edu.udc.pp.varios.gruposalazar;
 
 import java.io.FileReader;
 import java.io.IOException;
