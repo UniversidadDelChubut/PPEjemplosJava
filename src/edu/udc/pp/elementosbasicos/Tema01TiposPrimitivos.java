@@ -13,35 +13,28 @@ public class Tema01TiposPrimitivos {
 		byte b;
 		short s;
 		int i;
-		long l = 123L;      //Se puede inicializar en la declaración 
+		long l = 123L;      //Se puede inicializar en la declaraciï¿½n 
 		float f;
 		double d = Math.PI;
 		char c;
 		boolean bool;
 		
-		b = 8; // Las variables automáticas deben incializarse antes de usarlas
+		b = 8; // Las variables automÃ¡ticas deben incializarse antes de usarlas
 		
 		/* Hay una clase asociada a cada tipo de datos primitivo. 
 		 * Entre otrras cosas le podemos pedir a la cada una de ellas 
-		 * el mínimo y máximo valor permitido para cada tipo.  
+		 * el mÃ­nimo y mÃ¡ximo valor permitido para cada tipo.  
 		 */
 		b = Byte.MIN_VALUE; 		
 		
 		System.out.println(
-				"El máximo valor que se puede almacenar "
+				"El mÃ¡ximo valor que se puede almacenar "
 				+ "en una variable de tipo byte es " 
 				+ Byte.MAX_VALUE);
 		
-		/*
-		 * Ejercicio:
-		 * a) Escriba un programa que imprima el mínimo valor permitido
-		 * y el máximo valor permitido para cada uno d elos tipos enteros.
-		 * b) Responda ¿Estos valores máximos y mínimos difieren entre distintos sistemas (SO y hardware)? 
-		 */
-		
-		
-		/* Ejercicio
-		 * ¿Porqué la asignación que está a continuación no funciona? 
+				
+		/* 
+		 * Â¿PorquÃ© la asignaciÃ³n que estÃ¡ a continuaciÃ³n no funciona? 
 		 */
 		// b = 5000; // <---- Descomentar para corroborar que no funciona 
 
@@ -49,10 +42,10 @@ public class Tema01TiposPrimitivos {
 		// b = i;    // <---- Al descomentar vermos que falla
 		
 		i = 12;
-		// b = i;    // <---- Preguta: ¿Porqué falla si 12 es un valor aceptado por un byte?
-		             //       Pregunta ¿Como puedo forzar la asignación?
+		// b = i;    // <---- Preguta: ï¿½Porquï¿½ falla si 12 es un valor aceptado por un byte?
+		             //       Pregunta ï¿½Como puedo forzar la asignaciï¿½n?
 
-		//Asignación de literales
+		//Asignaciï¿½n de literales
 		i = 12;    //Decimal
 		i = 012;   //Octal
 		i = 0x12;  //Hexadecimal
@@ -72,7 +65,7 @@ public class Tema01TiposPrimitivos {
 		System.out.printf("En la tierra hay %d habitantes\n", habitantesDeLaTierra);
 		System.out.printf("En la tierra hay %,d habitantes\n", habitantesDeLaTierra);
 		/* Es aconsejable usar salida con 
-		 * Referencia rápida printf 
+		 * Referencia rï¿½pida printf 
 		 * http://web.cerritos.edu/jwilson/SitePages/java_language_resources/Java_printf_method_quick_reference.pdf 
 		 */
 		
@@ -83,7 +76,7 @@ public class Tema01TiposPrimitivos {
 		
 		/* Caracteres */
 		
-		char caracterEspecial = '\u00e4'; //La letra a con diéresis
+		char caracterEspecial = '\u00e4'; //La letra a con diï¿½resis
 		System.out.println(caracterEspecial);
 
 		//Las cadenas son objetos, son una secuencia de caracteres
@@ -98,8 +91,8 @@ public class Tema01TiposPrimitivos {
 		c = 'd';
 		
 		if (c >='a' && c <= 'z') {
-			System.out.println("El caracter " + c + " está en la posición " + (c - 'a' + 1) + " del alfabeto");
-			System.out.printf("El caracter %c está en la posición %d del alfabeto\n", c, c - 'a' + 1);
+			System.out.println("El caracter " + c + " estï¿½ en la posiciï¿½n " + (c - 'a' + 1) + " del alfabeto");
+			System.out.printf("El caracter %c estï¿½ en la posiciï¿½n %d del alfabeto\n", c, c - 'a' + 1);
 		}
 		
 		/*Secuencias de escape*/
