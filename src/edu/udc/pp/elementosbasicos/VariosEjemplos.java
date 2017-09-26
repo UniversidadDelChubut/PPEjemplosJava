@@ -69,7 +69,7 @@ public class VariosEjemplos {
     }
     
     /*
-    public static int determinanteMatriz(int [][] matriz) {
+    private static int determinanteMatriz3x3(int [][] matriz) {
     	int valor = 0;
     	
     	for (int i = 0; i< matriz.length; i++) {
@@ -88,6 +88,7 @@ public class VariosEjemplos {
     */
     
     public static int determinanteMatriz(int [][] matriz) {
+	//El caso trivial debería ser la matriz 1 x 1 
     	if (matriz.length == 2) {
     		return determinanteMatriz2x2(matriz);
     	}
