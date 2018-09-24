@@ -1,0 +1,31 @@
+@startuml
+
+title Relaciones - Diagrama de Clases - https://www.planttext.com/
+
+class Camion {
++matricula
+}
+class Viaje {
+    -Date partida
+    -Date arribo
+    +void agregarCarga(LoteCarga)
+}
+class LoteCarga {
+ - tipoCarga
+ - tara
+}
+class Conductor {
++nombre
+}
+class TerminalCarga {
+    nombre
+    domiclio
+    localidad
+}
+
+Viaje "1" o-down-  LoteCarga
+Camion "1" ---left--->  Conductor
+Camion "1" *-down- "many" Viaje
+Viaje ---right------>  TerminalCarga: origen
+Viaje ---right------> TerminalCarga: destino
+@enduml
