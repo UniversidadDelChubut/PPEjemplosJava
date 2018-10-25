@@ -1,4 +1,4 @@
-package interfaces;
+package edu.udc.pp.interfacescondefault;
 
 public class Estudiante extends Persona implements Comparable<Estudiante> {
 	

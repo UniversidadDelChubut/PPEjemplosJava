@@ -1,4 +1,4 @@
-package interfaces;
+package edu.udc.pp.interfacescondefault;
 
 import java.util.Collection;
 import java.util.Collections;

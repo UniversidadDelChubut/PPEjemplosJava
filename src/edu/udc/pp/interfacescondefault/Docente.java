@@ -1,4 +1,4 @@
-package interfaces;
+package edu.udc.pp.interfacescondefault;
 
 public class Docente extends Persona implements Asalariado{
 	
