@@ -26,7 +26,6 @@ public class Persona {
 		this.domicilio = domicilio;
 	}
 	
-	
 	public void saludar(){
 		System.out.println("Hola me llamo " +  this.getNombre());
 	}
