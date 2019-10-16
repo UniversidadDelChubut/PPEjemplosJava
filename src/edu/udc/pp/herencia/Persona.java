@@ -2,9 +2,9 @@ package edu.udc.pp.herencia;
 
 public class Persona { 
 
-	protected String nombre;
-	protected int edad;
-	protected String domicilio;
+	private String nombre;
+	private int edad;
+	private String domicilio;
 	
 	
 	public String getNombre() {
