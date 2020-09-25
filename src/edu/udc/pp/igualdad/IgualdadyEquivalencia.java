@@ -46,7 +46,8 @@ public class IgualdadyEquivalencia {
 		
 		
 		
-		
+		Direccion d1 = new Direccion("San Martin", 312, "9103", "Puerta amarilla");
+		Direccion d2 = new Direccion("San Martin", 312, "9103", "Ojo! El timbre no anda");
 		
 		
 		
